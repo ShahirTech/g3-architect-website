@@ -1,0 +1,61 @@
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links, .teams,.features{
+        flex-direction: column;
+    }
+    .team-img-container, .facts-container, .sponsor-companies{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
+    }
+    .fact-description{
+        width:100%;
+    }   
+    .our-features{
+        margin-left: 20px;
+    }
+    .sponsor-companies{
+        justify-items: center;
+        gap: 50px;
+    }
+    .featured-architect img{
+        width: 100%;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 105px;
+        font-size: 1.35rem;
+    }
+    #experience-year{
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams, .features{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
+    }
+    .facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 130px;
+    }
+    .fact-description{
+        width:100%;
+    }
+    .sponsor-companies{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+    .featured-architect img{
+        width: 100%;
+    }
+    #experience-badge{
+        margin-left: 200px;
+    }
+}
