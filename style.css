@@ -176,10 +176,13 @@ main>section{
 }
 
 /* footer styles */
+footer{
+    margin: 100px auto; 
+    max-width: 1440px;
+}
 footer>p{
     text-align: center;
     background-color: antiquewhite;
     padding: 20px 0px 20px 0px;
     margin: 0 auto;
-    max-width: 1440px;
 }
